@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<title>WEB - html</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <h1>코딩을 배워봅시다</h1>
+  <h3><a href="file:///C:/Users/USER/Desktop/web/%EC%BD%94%EB%94%A9%EC%9D%84%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8B%A4.html" title="화연이의 이야기">프롤로그</a></h3>
+  <ol>
+    <li><a href="1.html" title="html에 대하여">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+<h2>HTML 배우기</h2>
+<ol>
+<p style="margin-top:20px;"><li><strong>아톰에서 글이 길어져 하단에 슬라이드바가 생길때</strong><br> <u>View-Toggle Soft Wrap</u>을 클릭하면 화면에서 글자가 삐져나가지 않고 밑으로 자연스럽게 내려가도록 볼 수 있어!! 아주 중요해</li></p>
+
+<p><li><strong>margin</strong><br>
+  태그와 태그사이의 여백을 <strong>margin</strong>이라고 해 태그의 위쪽에 여백을 주고싶으면<br>
+p style="margin-<strong>top</strong>:00px;"라고 써주고 00자리에 원하는 px만큼 숫자를 써 줘서<br>
+여백을 정교하게 조정할 수 있어.<br>
+위쪽여백을 줄때는<strong>margin-top</strong> 아래쪽에 여백을 줄때는<strong>margin-bottom</strong><br>
+왼쪽여백은 <strong>margin-left</strong> 오른쪽 여백은<strong>margin-right</strong><br>
+중요한 점은 의미에 맞는 태그를 써주는 것이야.<br>
+-글과 이미지사이의 간격을 조절할때 margin은 적용이 안돼. 대신 br은 가능</li></p>
+
+<p><li><strong>이미지 추가하기</strong><br>
+이미지를 추가하고 싶을때는 다운받은 이미지를 폴더에 저장해놔.<br>
+지금같은 경우는 web폴더에 이미지를 저장!<br>
+이미지의 이름이 너무 길면 이미지이름 우클릭 <u>rename</u>을 클릭해서 이름을 짧게 바꾸자.(단축키는 F2)<br>
+그다음 이미지를 추가하고 싶은 부분에 <u>img src="이미지이름"</u>을 써줘 이미지의 크기는 <u>width="원하는크기"</u> 크기 단위를 숫자로만 써도 되고 ex)450 또는 화면 비율에 맞게 이미지가 자동으로 조절되기 원할땐<br>
+100%라고 써주면 된다!<br>참고로 src는 source의 줄임말이야.</li></p>
+
+<p><li><strong>속성</strong><br>
+img src=<u>"coding.jpg"</u>  <u>width=100%</u> 밑줄친 부분을<strong>속성=attribute</strong><br>
+속성들의 위치는 뒤바껴도 아무 상관이 없어. 태그가 태그의 이름만으로는 정보가 부족할때 속성을 추가해.</li></p>
+
+<p><li><strong>아톰에서의 글 정리</strong><br>
+  들여쓰기를 하고싶은 문장을 드래그로 선택하고 tap키를 누르면 들여쓰기가 돼.<br>
+  근데 이건 코드를 보기 좋으라고 들여쓰기가 되는거지 실제로 웹사이트에서 반영되지는 않아.</li></p>
+
+<p><li><strong>글 앞에 숫자붙이기&원붙이기</strong><br>
+  <strong>ul</strong>은 부모고 <strong>li</strong>는 자식이야 li는 목록이란 뜻인데 <u>list</u>의 앞 두글자를 따서 줄인말이야.<br>
+li와 같은 항목들은 어디서부터 어디까지가 서로 연관된 항목인지<br>
+그룹핑을 하기 위한 부모태그(ul)가 필요해.</li></p>
+
+<p>6-1. 부모태그인 ul은 li로 묶어놨던 자식들 앞에 <u>동그라미</u>가 생겨.<br>
+부모태그인 ul자리에 ol로 바꾸면 li로 묶어놨던 자식들 앞에 자동으로 <u>번호</u>(넘버)가 세겨져!<br>
+ul과ol은 공통적으로 l이 들어가 있어.(list)<br>
+<strong>ul</strong>은 Unodered List고(숫자가 없다.) <strong>ol</strong>은 Odered List(숫자가 있다.)라는 뜻이야.<br>
+반드시 ol, ul, li는 다 입력했으면 <u>마지막에 꼭/로 묵어줘야해.</u></p>
+
+<p><li><strong>웹페이지의 제목 정하기</strong><br>
+웹페이지의 제목을 정할때 꺽새title꺽새쓰고싶은이름꺽새/title꺽새로 써줘.<br>
+title태그는 책표지와 같은 정보로 사용해.<br>
+meta charset=문자규칙 꺽새meta charset="utf-8"꺽새 해주면 문자를 utf-8로 읽어라 라는 뜻이야.
+본문은 꺽새body꺽새로 묶기로 약속했고, body를 설명하는 태그는 꺽새head꺽새로 묶기로 약속했어.<br>
+head위에는 꺽새html꺽새로 묶고 그 위에는 관용적으로 <u>꺽새!doctype html꺽새</u> 라고 써줘</li></p>
+
+<p>7-1. 7번에서 설명한 내용은 아톰을 실행하고 파일의 제목을 정한뒤 제일먼저 html라고 쓰고 엔터치면<br>
+시트가 나와 편리하게 시작할 수 있다.</p>
+
+<p><li><strong>텍스트에 링크를 걸고 싶으면..</strong><br>
+a=anchor(닻), h=HyperText, ref=레퍼런스(참조)<br>
+최종적으로 <u>꺽a href="이동 하고싶은 링크주소" target="_blank"꺽</u><br>
+target="blank"는 링크를 눌렀을때 새페이지에서 열기 라는 뜻이다.<br>
+안써주면 새페이지에서 열리지 않고 기존페이지에서 웹페이지가 바뀐다.<br>
+<strong>툴팁</strong>을 뜨게 하고싶으면 <u>title="쓰고싶은말"</u>꺽새로 닫기 하면 링크를 걸어놓은 문장에<br>
+마우스를 가져다 놨을때 툴팁이 뜬다.<br>
+최종-<u>꺽a=href"이동할주소" target="_blank" title="툴팁에 쓸내용"꺽 링크걸 문장 꺽/a꺽</u>
+</li></p>
+
+<p><li>웹이 갖고있는 정보를 탄탄하게! html을 정확하게 사용해야해. 접근성=accessibility 문자를 통으로 이미지로 만들게 된다면 시각장애인들은 읽을 수 없다.<br>
+<u>링크로 페이지와 페이지를 엮어 하나의 웹을 만든다.</u></li></p>
+</ol></body>
+
+</html>
